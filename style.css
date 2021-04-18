@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./pexels-bastian-riccardi-6331092.jpg");
+  /* object-fit: cover;*/
+  background-size: cover;
+}
+
+.wrapper {
+  width: 30%;
+  height: 57vh;
+  margin: 12rem auto;
+  border: 1px solid #555;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 30px;
+  padding: 1rem;
+  padding-left: 2rem;
+}
+h2 {
+  text-align: center;
+  color: lightgray;
+}
+.date,
+.time {
+  width: 80%;
+  height: 1.7rem;
+  margin: 1rem;
+  border: 1px solid #555;
+  color: #fff;
+  padding: 7px 0 5px 10px;
+  text-align: center;
+  font-family: orbitron;
+  font-size: 1.1rem;
+}
+h4 {
+  margin-left: 1rem;
+  color: #555;
+}
